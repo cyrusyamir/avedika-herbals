@@ -6,7 +6,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Avedika Herbals - Coming Soon</title>
         <link rel="stylesheet" href="/src/lander.css" />
-        <script src="https://tally.so/widgets/embed.js"></script>
+        <!-- <script src="https://tally.so/widgets/embed.js"></script> -->
+        <script>
+            window.TallyConfig = {
+                "formId": "3NkR1b",
+                "popup": {
+                    "layout": "modal",
+                    "autoClose": 1000
+                }
+            };
+        </script>
+
+        <script async src="https://tally.so/widgets/embed.js"></script>
     </head>
 
     <body>
@@ -138,10 +149,12 @@
 
                         <!-- Action buttons -->
                         <div class="action-buttons">
-                            <button id="know-more-btn" class="btn btn-secondary">
-                                Know More
-                            </button>
-                            <a id="buy-now-btn" class="btn btn-primary" href="#" rel="nofollow">
+
+                            <button id="know-more-btn" class="btn btn-secondary" data-tally-open="3NkR1b"
+                                data-tally-layout="modal" data-tally-auto-close="1000">Know More</button>
+
+                            <a id="buy-now-btn" class="btn btn-primary"
+                                href="#tally-open=3NkR1b&tally-layout=modal&tally-auto-close=1000" rel="nofollow">
                                 Buy Now
                             </a>
                         </div>

@@ -484,6 +484,10 @@ img {
   line-height: 1.4;
 }
 
+div.hnzbLF{
+  display: none;
+}
+
 /* Responsive breakpoints */
 
 /* Small mobile phones (<425px) */
